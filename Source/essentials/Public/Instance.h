@@ -93,6 +93,8 @@ public:
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Client: Rules")
 	bool bAllowExtraMov = true; //Allows advanced movement
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Client: Rules")
+	bool bAllowAbilities = true; // Allows the use of all abilities
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Client: Rules")
 	bool bAllowExchange = true; //Allows the use of the Heal ability
 	
 };
